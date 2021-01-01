@@ -9,4 +9,5 @@ router.post('/updateList/:id', checkToken, crudController.updateList);
 
 router.delete('/deleteList/:id', checkToken, crudController.deleteList);
 
+router.post('/createMeeting', crudController.createMeeting);
 module.exports = router;
